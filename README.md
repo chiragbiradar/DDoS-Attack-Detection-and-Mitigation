@@ -76,16 +76,24 @@ Mitigate the malicious traffic  in two minutes to detect its port number
 # Architecture
 Software-Defined Networking (SDN) is a network architecture approach that enables the network to be intelligently and centrally controlled, or 'programmed,' using software applications
 
-SDN architecture includes three layers: 
-The application layer:
+
+## SDN architecture includes three layers: 
+### The application layer:
 The application layer contains the typical network applications or functions organizations use. This can include intrusion detection systems, load balancing or firewalls. A software-defined network replaces the appliance with an application that uses a controller to manage data plane behavior
-The control layer
+
+### The control layer:
 The control layer represents the centralized SDN controller software that acts as the brain of the software-defined network. This controller resides on a server and manages policies and traffic flows throughout the network.
 
 This made up of the physical switches in the network. These switches forward the network traffic to their destinations.
 
 
+# Flow chart
+
 # Activity Diagram
+
+# Gantt Chart
+
+
 
 
 
