@@ -38,8 +38,6 @@ Apply mitigation module for detected attack traffic source ports
 Excess time for Dataset generation.
 Finding an optimal trade off between prediction accuracy and delay.
 
-## Proposed System
-![image](https://user-images.githubusercontent.com/78417411/200159701-04f8242d-0887-4329-8987-1801a0cfb885.png)
 
 ### Dataset Details:
 Dataset is generated using python scripts for malicious traffic and legitimate traffic
@@ -76,6 +74,7 @@ Mitigate the malicious traffic  in two minutes to detect its port number
 # Architecture
 Software-Defined Networking (SDN) is a network architecture approach that enables the network to be intelligently and centrally controlled, or 'programmed,' using software applications
 
+![image](https://user-images.githubusercontent.com/78417411/200639379-74f382c3-3084-47fc-b1fc-515b0bfd10c5.png)
 
 ## SDN architecture includes three layers: 
 ### The application layer:
@@ -86,10 +85,56 @@ The control layer represents the centralized SDN controller software that acts a
 
 This made up of the physical switches in the network. These switches forward the network traffic to their destinations.
 
+# 2.2 Description of target User
+In a distributed denial-of-service (DDoS) attack, multiple compromised  computer systems attack a target and cause a denial of service for users of the targeted resource. The target can be a server, website or other  network resource. The flood of incoming messages, connection  requests or malformed packets to the target system forces it to slow down or even crash and shut down, thereby denying service to legitimate users or systems
+
+# 2.4 Scope
+• Security services
+• Network intelligence and monitoring
+• Compliance and regulation bound application
+• High performance applications
+• Distributed application control and cloud integration
+
+# 3.System Software Requirement specification
+## 3.1 Overview of SRS
+• Here is the detailed description of requirements specifications i.e., 
+functional requirements, use case diagrams and nonfunctional 
+requirements.
+• Software and Hardware requirements is also discussed.
+
+## 3.2 Requirement Specification
+### 3.2.1 Functional Requirement 
+• The model should be able to detect DDoS attack accurately.
+• The model should be efficient enough to restore the 
+affected server or website as soon as possible.
+• The identification process must not stop or restrict the 
+incoming traffic, but at the same time, the network must be 
+able to identify and resist the attacking node in the network
+
+### 3.2.4 Non Functional requirement
+• Mitigate DDoS attack by tracing the source and tracing its 
+ethernet address.
+• Classify traffic as normal or abnormal.
+• It is 24x7 available to user.
+
+### 3.3 Software and Hardware requirement 
+### specifications
+• Windows/ Linux/ mac os
+• Virtualization software (vmware/virtual box)
+• Ryu controller 
+• Mininet software
+• Wireshark (for network monitoring)
 
 # Flow chart
+![image](https://user-images.githubusercontent.com/78417411/200639471-57cc2ecc-ef7a-4c5f-9364-056ee55ca53f.png)
+
 
 # Activity Diagram
+![image](https://user-images.githubusercontent.com/78417411/200639554-0238dd97-ada4-4a73-a4eb-ebb312dd34d2.png)
+
+# Network Topology
+
+
 
 # Gantt Chart
 
