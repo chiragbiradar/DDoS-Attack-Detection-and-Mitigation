@@ -1,45 +1,54 @@
-# DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning
-## Project Description
+# DDoS Attack Detection and Mitigation using Machine Learning
 
-### Problem Statement
+
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning?logo=github&style=for-the-badge)](https://github.com/chiragbiradar/) 
+[![GitHub last commit](https://img.shields.io/github/last-commit/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning?style=for-the-badge&logo=git)](https://github.com/chiragbiradar/) 
+[![GitHub stars](https://img.shields.io/github/stars/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning?style=for-the-badge)](https://github.com/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning/stargazers) 
+[![My stars](https://img.shields.io/github/stars/chiragbiradar?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&label=My%20stars)](https://github.com/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning/stargazers) 
+[![GitHub forks](https://img.shields.io/github/forks/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning?style=for-the-badge&logo=git)](https://github.com/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning/network)
+[![Code size](https://img.shields.io/github/languages/code-size/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning?style=for-the-badge)](https://github.com/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning)
+[![Languages](https://img.shields.io/github/languages/count/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning?style=for-the-badge)](https://github.com/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning)
+[![Top](https://img.shields.io/github/languages/top/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning?style=for-the-badge&label=Top%20Languages)](https://github.com/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning)
+[![Issues](https://img.shields.io/github/issues/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning?style=for-the-badge&label=Issues)](https://github.com/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning)
+[![Watchers](https://img.shields.io/github/watchers/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning?label=Watch&style=for-the-badge)](https://github.com/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning/) 
+
+`DDoS Attack Detection and Mitigation using Machine Learning`
+
+![image](https://user-images.githubusercontent.com/78417411/204220907-67fb2338-1023-4404-8320-b7c2967bd0a3.png)
+
+## 1) Project Description
+
+### 1.1 Problem Statement
 To detect and mitigate DDoS attack using Machine Learning
 Apply machine model to classify attack traffic and normal traffic
 Apply mitigation module for detected attack traffic source ports
 
-## Motivation
+## 1.2 Motivation
 SDN enables to design, build and operate network.
 SDN networks are often exposed to new security threats and attacks, especially Distributed Denial of Service (DDoS) attacks
 More vulnerable DDoS attack due to centralized nature of SDN.
 Distributed denial-of-service (DDoS) attacks pose a great threat to the data centers
 
-## Objective
+## 1.3 Objective
 Implementation of network using mininet and ryu controller
 Generating the own dataset
 Attack detection:Using machine learning technique distinguish between normal or malicious traffic flow
 Adding the mitigation module(main purpose to be the reduce the attack on the system/host)
 
 
-### Problem space:
-A DDoS attack is a malicious attempt to disrupt the normal traffic of a targeted server, service or network.
-DDos attacks pose a great threat to data centers
-
-### Objectives:
+### 1.4 Objectives:
 To implement the network(for LAN) using mininet RYU controller
 To generate datasets for normal traffic and attack traffic
 To detect attack using suitable ML model
 To add the mitigation module
 
-### Problem Definition:
-To detect and mitigate DDoS attack using Machine Learning
-Apply machine model to classify attack traffic and normal traffic
-Apply mitigation module for detected attack traffic source ports
 
-### Technical Challenges:
+### 1.5 Technical Challenges:
 Excess time for Dataset generation.
 Finding an optimal trade off between prediction accuracy and delay.
 
 
-### Dataset Details:
+### 1.6 Dataset Details:
 Dataset is generated using python scripts for malicious traffic and legitimate traffic
       Dataset size = 22x2667523
       Data description:
@@ -52,13 +61,13 @@ Dataset is generated using python scripts for malicious traffic and legitimate t
       Label - classify malicious or legitimate traffic(1=legitimate & 0=malicious)
 
 
-### Measurable Outputs
+### 1.7 Measurable Outputs
 
-### Observations:
+### 1.7.1 Observations:
 Load on victim machine increases when ICMP,SYN,UDP,SMRUF flood is being sent to victim machine
 Flood attack is sent from random ip adresses
 
-## Functional and Non-Functional Requirements
+## 1.8 Functional and Non-Functional Requirements
 ### Functional  Requirements
 Machine learning model should be able to detect DDoS attacks
 Communicate with the controller to request traffic information
@@ -71,12 +80,12 @@ Analyze traffic data every 5 seconds to classify traffic as normal or abnormal
 Mitigate the malicious traffic  in two minutes to detect its port number
 
 
-# Architecture
+# 2) Architecture
 Software-Defined Networking (SDN) is a network architecture approach that enables the network to be intelligently and centrally controlled, or 'programmed,' using software applications
 
 ![image](https://user-images.githubusercontent.com/78417411/200639379-74f382c3-3084-47fc-b1fc-515b0bfd10c5.png)
 
-## SDN architecture includes three layers: 
+## 2.1 SDN architecture includes three layers: 
 ### The application layer:
 The application layer contains the typical network applications or functions organizations use. This can include intrusion detection systems, load balancing or firewalls. A software-defined network replaces the appliance with an application that uses a controller to manage data plane behavior
 
@@ -85,10 +94,10 @@ The control layer represents the centralized SDN controller software that acts a
 
 This made up of the physical switches in the network. These switches forward the network traffic to their destinations.
 
-# 2.2 Description of target User
+## 2.2 Description of target User
 In a distributed denial-of-service (DDoS) attack, multiple compromised  computer systems attack a target and cause a denial of service for users of the targeted resource. The target can be a server, website or other  network resource. The flood of incoming messages, connection  requests or malformed packets to the target system forces it to slow down or even crash and shut down, thereby denying service to legitimate users or systems
 
-# 2.4 Scope
+## 2.3 Scope
 • Security services
 • Network intelligence and monitoring
 • Compliance and regulation bound application
@@ -111,7 +120,7 @@ affected server or website as soon as possible.
 incoming traffic, but at the same time, the network must be 
 able to identify and resist the attacking node in the network
 
-### 3.2.4 Non Functional requirement
+### 3.2.2 Non Functional requirement
 • Mitigate DDoS attack by tracing the source and tracing its 
 ethernet address.
 • Classify traffic as normal or abnormal.
@@ -135,8 +144,6 @@ ethernet address.
 # Network Topology
 ![image](https://user-images.githubusercontent.com/78417411/200657095-cfac805b-7d1e-4908-857c-3967ca221f61.png)
 
-
-# Gantt Chart
 
 
 
