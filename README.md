@@ -19,7 +19,10 @@
 
 ## Authors
 
-- [@chiragbiradar](https://www.github.com/chiragbiradar)
+- [Chirag Biradar](https://www.github.com/chiragbiradar)
+- [Apoorv Bagal](https://github.com/ApoorvBagal)
+- [Akash Kumar](https://github.com/AkashkumarAK)
+- [Abhishek Kumar](https://github.com/7abhishe)
 
 
 # DDoS Attack Detection and Mitigation using Machine learning
