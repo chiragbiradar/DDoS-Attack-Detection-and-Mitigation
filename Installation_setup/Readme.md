@@ -39,5 +39,9 @@ cd controller
 
 # switch on the ryu-controller
 ryu-manager controller.py
+```
 
+
+# You can try out the project using our vm too
+## [Link to download our Mininet VM and Ryu Controller](shorturl.at/szH58)
 
