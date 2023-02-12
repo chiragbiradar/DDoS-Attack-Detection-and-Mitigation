@@ -19,14 +19,6 @@
 ![image](https://user-images.githubusercontent.com/78417411/204220907-67fb2338-1023-4404-8320-b7c2967bd0a3.png)
 
 
-## Authors
-
-- [Chirag Biradar](https://www.github.com/chiragbiradar)
-- [Apoorv Bagal](https://github.com/ApoorvBagal)
-- [Akash Kumar](https://github.com/AkashkumarAK)
-- [Abhishek Kumar](https://github.com/7abhishe)
-
-
 # DDoS Attack Detection and Mitigation using Machine learning
 
 A distributed denial-of-service (DDoS) attack is a malicious attempt to disrupt the normal traffic of a targeted server, service, or network by overwhelming the target or its surrounding infrastructure with a flood of internet traffic.
