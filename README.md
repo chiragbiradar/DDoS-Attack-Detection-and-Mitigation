@@ -18,6 +18,12 @@
 
 ![image](https://user-images.githubusercontent.com/78417411/204220907-67fb2338-1023-4404-8320-b7c2967bd0a3.png)
 
+# Team
+[Chirag](https://github.com/chiragbiradar)
+[Akash Kumar](https://github.com/AkaskumarAK)
+[Apoorv Bagal](https://github.com/ApoorvBagal)
+[Abhishek Ray](https://github.com/7abhishe)
+
 
 # DDoS Attack Detection and Mitigation using Machine learning
 
