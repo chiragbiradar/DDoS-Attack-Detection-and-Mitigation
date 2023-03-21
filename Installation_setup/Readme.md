@@ -41,7 +41,19 @@ cd controller
 ryu-manager controller.py
 ```
 
+### hping commands 
+```bash
+# icmp flood
+hping3 -1 -V -d 120 -w 64 -p 80 --rand-source --flood
+
+# syn flood
+hping3 -S -V -d 120 -w 64 -p 80 --rand-source --flood
+
+# udp flood
+hping3 -2 -V -d 120 -w 64 -p 80 --rand-source --flood
+
 
 # You can try out the project using our vm too
 ## [Link to download our Mininet VM and Ryu Controller](shorturl.at/szH58)
+
 
