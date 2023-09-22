@@ -46,6 +46,8 @@ New security concerns and assaults, particularly Distributed Denial of Service (
 [4] This paper proposes a new model to detect DDoS attacks in SDN based on SVM . Firstly a trained Support Vector Machine (SVM) approach is used by the model to extract numerous important features from the packet-in messages and measure the distribution of each feature using entropy. Studies reveal that this technique is highly effective at both real-time DDoS mitigation and security event detection.
 
 ## Implemented System
+![image](https://github.com/chiragbiradar/DDoS-Attack-Detection-and-Mitigation/assets/78417411/c6c46e97-7845-4a5e-8446-95be2821ff68)
+
 ### Description of the Implemented system
 To achieve the  goal of detection of DDoS attack and mitigation model for SDN networks, a model is build on the application plane. The architecture of implemented method consists of the flow collector module, feature extender module, anomaly detection module, and anomaly mitigation module. The task of the flow collector is to regularly collect information on traffic flow from the flow tables of each switch. These flow entries will be delivered to the feature extender, which will produce new features for each entry. 	
 
