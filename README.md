@@ -31,7 +31,7 @@
 - [Description of the Implemented system](#description-of-the-implemented-system)
 - [Software requirements specification](#software-requirements-specification)
 - [System Design](#system-design)
-- [Implementation](implementation:)
+- [Implementation](#implementation:)
 - [Testing](#testing)
 - [Results & Discussion](#results-&-discussion)
 - [Conclusion](#conclusion)
@@ -67,15 +67,18 @@ New security concerns and assaults, particularly Distributed Denial of Service (
 
 <h2>Installation</h2>
 
+```bash
 - install [Virtual box](https://www.virtualbox.org/wiki/Downloads) or VM-ware workstation
 
 - install [Mininet-VM](https://github.com/mininet/mininet/releases/)
 
--install [Ubuntu](https://ubuntu.com/download/desktop) in virtual box
+- install [Ubuntu](https://ubuntu.com/download/desktop) in virtual box
 
 - install [ryu-controller](https://ryu.readthedocs.io/en/latest/getting_started.html) in ubuntu vm
 
 - Use git clone to install the code files
+```
+
 ```bash
 git clone https://github.com/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning.git
 ```
@@ -112,16 +115,19 @@ sudo python topology.py
 ```bash
 # icmp flood
 hping3 -1 -V -d 120 -w 64 -p 80 --rand-source --flood
+```
 
+```bash
 # syn flood
 hping3 -S -V -d 120 -w 64 -p 80 --rand-source --flood
-
+```
+```bash
 # udp flood
 hping3 -2 -V -d 120 -w 64 -p 80 --rand-source --flood
+```
+<h1>You can try out the project using our vm too</h1>
 
-
-# You can try out the project using our vm too
-## [Link to download our Mininet VM and Ryu Controller](shorturl.at/szH58)
+<h2>[Link to download our Mininet VM and Ryu Controller](shorturl.at/szH58)</h2>
 
 
 
@@ -173,15 +179,14 @@ Software Requirement Definition (SRS) is a comprehensive specification and descr
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 <h4>Functional Requirement:</h4>
-- Machine learning model should be able to detect DDoS attacks
-- Communicate with the controller to request traffic information
-- Mitigate the DDoS attack without restricting the normal traffic
 
-<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+- Machine learning model should be able to detect DDoS attacks
+-  Communicate with the controller to request traffic information
+- Mitigate the DDoS attack without restricting the normal traffic
 
 <h4>Non-Functional Requirement:</h4>
 
-- Detect DDoS attack within 20 seconds
+-  Detect DDoS attack within 20 seconds
 - Analyze traffic data every 5 seconds to classify traffic as normal or abnormal.
 - Mitigate the malicious traffic in 2 minutes to detect its port number.
 
@@ -356,7 +361,7 @@ August. Time-based DDoS detection and mitigation for SDN controller. In
 [[9] Mihoub A, Fredj OB, Cheikhrouhou O, Derhab A, Krichen M. Denial of service attack detection and mitigation for internet of things using looking-back-enabled machine learning techniques. Computers & Electrical Engineering. 2022 Mar 1;98:107716.](https://www.sciencedirect.com/science/article/abs/pii/S0045790622000337)
 
 
-[[10] Miao, R., Yu, M. and Jain, N., 2014. Nimbus: cloud-scale attack detection and mitigation. Acm sigcomm computer communication review, 44(4), pp.121-122.}(https://www.researchgate.net/publication/286424649_NIMBUS)
+[[10] Miao, R., Yu, M. and Jain, N., 2014. Nimbus: cloud-scale attack detection and mitigation. Acm sigcomm computer communication review, 44(4), pp.121-122.](https://www.researchgate.net/publication/286424649_NIMBUS)
 
 
 [[11] Srinivasan, Karthik, Azath Mubarakali, Abdulrahman Saad Alqahtani, and A. Dinesh Kumar. "A survey on the impact of DDoS attacks in cloud computing: prevention, detection and mitigation techniques." In Intelligent Communication Technologies and Virtual Mobile Networks, pp. 252-270. Springer, Cham, 2019.](https://www.springerprofessional.de/en/a-survey-on-the-impact-of-ddos-attacks-in-cloud-computing-preven/17060314)
