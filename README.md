@@ -31,7 +31,7 @@
 - [Description of the Implemented system](#description-of-the-implemented-system)
 - [Software requirements specification](#software-requirements-specification)
 - [System Design](#system-design)
-- [Implementation](#implementation:)
+- [Implementation](#implementation)
 - [Testing](#testing)
 - [Results & Discussion](#results-&-discussion)
 - [Conclusion](#conclusion)
@@ -112,6 +112,7 @@ sudo python topology.py
 ```
 
 <h3> hping commands</h3> 
+
 ```bash
 # icmp flood
 hping3 -1 -V -d 120 -w 64 -p 80 --rand-source --flood
@@ -373,7 +374,7 @@ August. Time-based DDoS detection and mitigation for SDN controller. In
 [[13] Gadze, James Dzisi, Akua Acheampomaa Bamfo-Asante, Justice Owusu Agyemang, Henry Nunoo-Mensah, and Kwasi Adu-Boahen Opare. "An investigation into the application of deep learning in the detection and mitigation of DDOS attack on SDN controllers." Technologies 9, no. 1 (2021): ](https://www.mdpi.com/2227-7080/9/1/14)
 
 
-[[14] Jaramillo, L.E.S., 2018. Malware detection and mitigation techniques: lessons learned from Mirai DDOS attack. Journal of Information Systems Engineering & Management, 3(3), p.19.}(https://www.researchgate.net/publication/326425061_Malware_Detection_and_Mitigation_Techniques_Lessons_Learned_from_Mirai_DDOS_Attack)
+[[14] Jaramillo, L.E.S., 2018. Malware detection and mitigation techniques: lessons learned from Mirai DDOS attack. Journal of Information Systems Engineering & Management, 3(3), p.19.](https://www.researchgate.net/publication/326425061_Malware_Detection_and_Mitigation_Techniques_Lessons_Learned_from_Mirai_DDOS_Attack)
 
 
 [[15] Al-Duwairi, B., Al-Kahla, W., AlRefai, M.A., Abedalqader, Y., Rawash, A. and Fahmawi, R., 2020. SIEM-based detection and mitigation of IoT-botnet DDoS attacks. International Journal of Electrical and Computer Engineering, 10(2), p.2182.](https://ijece.iaescore.com/index.php/IJECE/article/view/20812)
