@@ -1,9 +1,6 @@
 #### Documentation under process!!!
 
 # <p align="center">DDoS Attack Detection and Mitigation using Machine Learning</p>
-# For any Project guidance and setup: http://www.fiverr.com/s/m5Y8Z6x
-Thank you
-
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning?logo=github&style=for-the-badge)](https://github.com/chiragbiradar/) 
 [![GitHub last commit](https://img.shields.io/github/last-commit/chiragbiradar/DDoS-Attack-Detection-and-Mitigation-using-Machine-Learning?style=for-the-badge&logo=git)](https://github.com/chiragbiradar/) 
@@ -20,6 +17,7 @@ Thank you
 
 ![image](https://user-images.githubusercontent.com/78417411/204220907-67fb2338-1023-4404-8320-b7c2967bd0a3.png)
 
+# For any Project guidance and setup: http://www.fiverr.com/s/m5Y8Z6x
 </div>
 <h2>Table of Contents🧾</h2>
 
