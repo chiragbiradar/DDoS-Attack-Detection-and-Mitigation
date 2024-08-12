@@ -17,7 +17,7 @@
 
 ![image](https://user-images.githubusercontent.com/78417411/204220907-67fb2338-1023-4404-8320-b7c2967bd0a3.png)
 
-# For any Project guidance and setup: http://www.fiverr.com/s/m5Y8Z6x
+# For any Project guidance and setup: http://www.fiverr.com/s/m5Y8Z6x (Paused for a while)
 </div>
 <h2>Table of Contents🧾</h2>
 
